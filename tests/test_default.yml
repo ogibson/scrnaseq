@@ -1,0 +1,6 @@
+- name: Run kallisto pipeline
+  command: nextflow run main.nf -profile test --aligner kallisto
+  tags:
+    - default 
+  files:
+

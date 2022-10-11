@@ -66,6 +66,3 @@ jobs:
         uses: nf-core/setup-nextflow@v1
         with:
           version: "${{ matrix.NXF_VER }}"
-
-      - name: Run pipeline with test data
-        # For example: adding multiple test runs with different parameters

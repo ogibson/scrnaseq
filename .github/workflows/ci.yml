@@ -56,8 +56,7 @@ jobs:
           - "latest-everything"
         tests:
           - "default"
-        profile:
-          ["docker"]
+        profile: ["docker"]
     steps:
       - name: Check out pipeline code
         uses: actions/checkout@v2
